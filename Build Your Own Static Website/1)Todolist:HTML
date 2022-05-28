@@ -1,0 +1,36 @@
+Todolist:
+In this assignment, let's build a Todolist by applying the concepts we learned till now.
+
+Note:Try to achieve the design as close as possible.
+Resources:
+Use this background image, URL: https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png
+
+CSS Colors used:
+  Background color for button:orange
+  Text color:white
+CSS Font families used:Roboto
+<--------------------------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <div class="todo-card">
+        <div class="todo-card-header">
+            <h1 class="todo-card-title">Todolist</h1>
+            <p class="todo-card-caption">
+                Each day I will accomplish one thing on my todo list.
+            </p>
+        </div>
+        <p class="todo-title">Read a Book</p>
+        <p class="todo-description">
+            I don't think that the human race will survive the next thousand years,
+            unless we spread into space. There are too many accidents that can
+            befall life on a single planet. But I'm an optimist...
+        </p>
+        <div class="todo-card-footer">
+            <button class="button">Start</button>
+            <p class="text-underline">Don't skip introduction</p>
+        </div>
+    </div>
+</body>
+</html>
